@@ -1,0 +1,5 @@
+dbpath=/data/db_configs/data/db_config1
+logpath=/data/db_cinfigs/logs/db_config1.log
+journal=true
+port=40007
+configsvr=true
