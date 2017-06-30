@@ -1,0 +1,35 @@
+html{
+	font-family: 微软雅黑;
+}
+img,object,input,textarea,button,select{vertical-align:middle}
+fieldset, img {
+    border: 0;
+}
+ul, ol, menu {
+    list-style: none;
+}
+body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, figure, form, fieldset, legend, input, textarea, button, p, blockquote, th, td, pre, xmp {
+    margin: 0;
+    padding: 0;
+}
+input, textarea, button, select, a {
+    outline: 0 none;
+}
+.m-city .curcity .idesp, .m-city .curcity .cname, .m-city .curcity .txt, .m-city .curcity .iarr {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+}
+#ht h5{
+	font-family: tahoma,arial,"Hiragino Sans GB","微软雅黑",simsun,sans-serif;
+}
+#ht .tabs a{
+	font-family: tahoma,arial,"Hiragino Sans GB","微软雅黑",simsun,sans-serif;
+}
+.clrfix, .clr_after, .cf {
+    zoom: 1;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}

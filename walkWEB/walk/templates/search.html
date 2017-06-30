@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Search</title>
+	<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Walk Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/static/css/component.css" rel="stylesheet" type="text/css"  />
+<link href="/static/css/reset.css" rel="stylesheet" type="text/css"  />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="/static/js/move-top.js"></script>
+<script type="text/javascript" src="/static/js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+<body class="sch_spmenu">
+<!--banner-->
+	<div class="s-banner">
+		<div class="container">
+			<div class="header">
+				<div class="header-left2">
+					<h1><a href="index.html">Walk<span>Where To Go This Summer?</span></a></h1>
+				</div>
+			</div>
+			<div class="m-search m-search-list">
+				<div class="m-city m-city-on">
+					<div class="cityinfo">
+						<span class="curcity">
+							<i class="icon idesp"></i>
+							<em class="cname" title="南京">南京</em>
+							<span class="txt">站</span>
+							<i class="iarr"></i>
+						</span>
+					</div>
+					<div class="citytip cf" style="display: none;">
+						<i class="iarr"></i>
+						<a href="#" class="close">关闭</a>
+						<div class="tipcon">请选择出发城市</div>
+					</div>
+					<div class="m-city-suggest" style="display: none;">
+						<a href="#" class="btn-close"></a>
+						<div class="unit-history" style="display:block;">
+							<h5 id="ht" class="unit-seahd">最近切换城市</h5>
+							<div class="history">
+								<a href="#"></a>
+								<a href="#" class="clearhistory">清空</a>
+							</div>
+						</div>
+						<div class="scity scity2">
+							<div class="cf">
+								<span class="t">搜索城市</span>
+								<input type="text" class="input-city" placeholder="  支持XX查询方式" item="key">
+							</div>
+							<div class="scity-result" style="display:none;"></div>
+						</div>
+						<ul class="citytab cf">
+							<li class="citytab-item">
+								<a href="#" class="on">国内出发</a>
+							</li>
+							<li class="citytab-item">
+								<a href="#">国外出发</a>
+							</li>
+						</ul>
+						<div item="tabCons">
+							<div tab-content="domestic" style="display:block;" id="ht">
+								<ul class="tabs cf">
+									<li class="on" data-tab=""><a href="">A<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">B<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">C<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">D<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">E<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">F<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">G<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">H<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">I<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">J<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">K<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">L<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">M<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">N<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">O<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">P<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">Q<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">R<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">S<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">T<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">W<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">X<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">Y<i class="arrow"></i></a></i
+									<li data-tab="" class="off"><a href="">Z<i class="arrow"></i></a></li>
+								</ul>
+								<div class="tab-select m-panel" item="depCityList">
+									<div item="list" style="margin-top: 0px;">
+										<dl data-key="A" class="list cf">
+											<dt class="t">A</dt>
+											<dd class="cf c">
+												<a href="" class="bold">澳门</a>
+												<a href="">等等 待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="B" class="list cf">
+											<dt class="t">B</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="C" class="list cf">
+											<dt class="t">C</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="D" class="list cf">
+											<dt class="t">D</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="E" class="list cf">
+											<dt class="t">E</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="F" class="list cf">
+											<dt class="t">F</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="G" class="list cf">
+											<dt class="t">G</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="H" class="list cf">
+											<dt class="t">H</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="I" class="list cf">
+											<dt class="t">I</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="J" class="list cf">
+											<dt class="t">J</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="K" class="list cf">
+											<dt class="t">K</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="L" class="list cf">
+											<dt class="t">L</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="M" class="list cf">
+											<dt class="t">M</dt>
+											<dd class="cf c">
+												<a href="">待添加</a>
+											</dd>
+										</dl>
+										<dl data-key="N" class="list cf">
+											<dt class="t">N</dt>
+											<dd class="cf c">
+												<a href="">.</a>
+											</dd>
+										</dl>
+										<dl data-key="O" class="list cf">
+											<dt class="t">O</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="P" class="list cf">
+											<dt class="t">P</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="Q" class="list cf">
+											<dt class="t">Q</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="R" class="list cf">
+											<dt class="t">R</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="S" class="list cf">
+											<dt class="t">S</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="T" class="list cf">
+											<dt class="t">T</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="W" class="list cf">
+											<dt class="t">W</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="X" class="list cf">
+											<dt class="t">X</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="Y" class="list cf">
+											<dt class="t">Y</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="Z" class="list cf">
+											<dt class="t">Z</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl class="list cf list- ast"></dl>
+									</div>
+									<div class="panel-scroll" style="opacity: 0;">
+										<div class="panel-scroll-handler" style="height: 0px; top: 26.1763px;"></div>
+									</div>
+								</div>
+							</div>
+							<div tab-content="abroad" style="display:none;">
+								<ul class="tabs cf">
+									<li class="on" data-tab=""><a href="">"A"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"B"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"C"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"D"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"E"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"F"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"G"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"H"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"I"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"J"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"K"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"L"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"M"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"N"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"O"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"P"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"Q"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"R"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"S"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"T"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"U"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"V"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"W"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"X"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"Y"<i class="arrow"></i></a></li>
+									<li data-tab="" class="off"><a href="">"Z"<i class="arrow"></i></a></li>
+								</ul>
+								<div class="tab-select m-panel">
+									<div item="list" style="margin-top: 0px;">
+										<dl data-key="A" class="list cf">
+											<dt class="t">A</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="B" class="list cf">
+											<dt class="t">B</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="C" class="list cf">
+											<dt class="t">C</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="D" class="list cf">
+											<dt class="t">D</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="E" class="list cf">
+											<dt class="t">E</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="F" class="list cf">
+											<dt class="t">F</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="G" class="list cf">
+											<dt class="t">G</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="H" class="list cf">
+											<dt class="t">H</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="I" class="list cf">
+											<dt class="t">I</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="J" class="list cf">
+											<dt class="t">J</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="K" class="list cf">
+											<dt class="t">K</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="L" class="list cf">
+											<dt class="t">L</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="M" class="list cf">
+											<dt class="t">M</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="N" class="list cf">
+											<dt class="t">N</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="O" class="list cf">
+											<dt class="t">O</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="P" class="list cf">
+											<dt class="t">P</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="Q" class="list cf">
+											<dt class="t">Q</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="R" class="list cf">
+											<dt class="t">R</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="S" class="list cf">
+											<dt class="t">S</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="T" class="list cf">
+											<dt class="t">T</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="U" class="list cf">
+											<dt class="t">U</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="V" class="list cf">
+											<dt class="t">V</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="W" class="list cf">
+											<dt class="t">W</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="X" class="list cf">
+											<dt class="t">X</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="Y" class="list cf">
+											<dt class="t">Y</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+										<dl data-key="Z" class="list cf">
+											<dt class="t">Z</dt>
+											<dd class="cf c">
+												<a href=""></a>
+											</dd>
+										</dl>
+									</div>
+									<div class="panel-scroll" item="scrollbar" style="opacity: 0;">
+										<div class="panel-scroll-handler" item="handler" style="top: 0px;"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="m-tsearch">
+					<div class="cf" item="searchAction">
+						<div class="m-tsearch-form" item="searchBox">
+						<input type="text" placeholder="请输入目的地或关键词" value class="text-ct" id="arriveSearchText" item="text">
+					    <!--input-->
+					    <a href="#" class="clear-input" item="clear" style="display; inline;">清空输入框</a>
+					    <div class="select-tip"item="selectTip">
+					    	<a href="#js" class="select-trigger">
+					    		<i class="arr"></i>
+					    	</a>
+					    </div>
+					    <a href="#" class="btn-search" item="commit">搜索</a>
+						</div>
+					</div>
+					<div class="m-tsearch-hotsug" item="searchQuery" style="display: none;">
+						<a href="#js" class="btn-close" item="close">关闭</a>
+						<div class="unit-history" item="history" style="display: block;">
+							<h3 class="unit-seahd">您最近搜索</h3>
+							<div class="history cf" item="list">
+								<a href="#"></a>
+								<span class="empty">历史记录</span>
+								<a href="#" class="clearhistory">清空</a>
+							</div>
+						</div>
+						<h3 class="unit-seahd">热门搜索</h3>
+						<dl class="unit" item="hotList">
+							<dt class="hd">国内</dt>
+							<dd class="bd">
+								<a href=""></a>
+							</dd>
+							<dt class="hd">出境</dt>
+							<dd class="bd">
+								<a href=""></a>
+							</dd>
+							<dt class="hd">待添加</dt>
+							<dd class="bd">
+								<a href=""></a>
+							</dd>
+						</dl>
+					</div>
+					<div class="m-search-ingsug" item="searchSuggest">
+						<ul class="suglist" item="list">
+						</ul>
+					</div>
+					<div class="search-hot cf" item="searchHot">
+						<div class="hot-word" item="hotLine"></div>
+					</div>
+				</div>
+			</div>
+			<div class="wrap">
+				<div class="pagemain">
+					<div class="filter-shortcuts">
+						<div id="quick-filter" >
+							<div class="m-toolbar">
+								<div class="m-toolbar-part1 cf">
+									<ul class="tabs">
+										<li class="on" id="routeCount">
+											<a href="#">
+												<span class="num">20</span>个产品满足条件</a>
+										</li>
+										<li class="disable" id="attentionRoute">
+											<a href="#">待添加</a>
+										</li>
+									</ul>
+									<div class="e_sepbox_search" item="requery">
+										<span class="ipttip" item="placeholder" style="display: block;">在结果里继续搜索</span>
+										<input type="text" value class="iptbox" item="text">
+										<!--input-->
+										<a href="#" class="iptbtn" ></a>
+									</div>
+								</div>
+								<div class="m-toolbar-part2">
+									<ul class="sortord">
+										<li class="item checked" item="pop">
+											<a href="#" class="name">
+												<em class="va">推荐</em>
+												<i class="icon"></i>
+											</a>
+										</li>
+										<li class="item" >
+											<a href="#" class="name">
+												<em class="va">价格</em>
+												<i class="icon"></i>
+											</a>
+										</li>
+										<li class="item">
+											<a href="#" class="name">
+												<em class="va">销量</em>
+												<i class="icon"></i>
+											</a>
+										</li>
+										<li class="item">
+											<a href="#" class="name">
+												<em class="va">出行方式</em>
+												<i class="icon"></i>
+											</a>
+										</li>
+										<!-- <li class="item">
+											<a href="#" class="name">
+												<em class="va"></em>
+												<i class="icon"></i>
+											</a>
+										</li>
+										<li class="item">
+											<a href="#" class="name">
+												<em class="va">其他</em>
+												<i class="icon"></i>
+											</a>
+										</li>
+										<li class="item">
+											<a href="#" class="name">
+												<em class="va">其他</em>
+												<i class="icon"></i>
+											</a>
+										</li>
+										<li class="item">
+											<a href="#" class="name">
+												<em class="va">其他</em>
+												<i class="icon"></i>
+											</a>
+										</li>
+										<li class="item">
+											<a href="#" class="name">
+												<em class="va">其他</em>
+												<i class="icon"></i>
+											</a>
+										</li> -->
+									</ul>
+									<div class="m-toolbar-status" item="hideToolBar">
+										<div class="status" item="switcher">
+											<a href="#"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div style="margin-top: 0px; overflow:hidden; width: 1140px; position: static; top: auto; left: auto;height: 77px; display: none;"></div>
+					</div>
+					<div class="m-list">
+						<div id="PageList">
+							<div class="main-list" style="opacity: 1;display: block;">
+								<div class="unit">
+									<div class="unit-hd cf unit-hd-It">
+										<div class="unit-type typex">飞机</div>
+										<div class="protit">
+											<a  class="js_djCount" href="#" title="此处添加网址链接"
+											target="_blank">探寻红色足迹庐山、井冈山之旅精推荐南京动车往返南昌、庐山、井冈山六日游</a>
+										</div>
+										
+									</div>
+									<div class="unit-bd cf">
+										<div class="imgbox">
+											<a  class="js_djCount" href="#" target="_blank">
+												<img src="http://img1.qunarzz.com/vc/89/f0/ed/c69edb13f0dbd1d4f1990156ce.jpg_210x140x92.jpg" alt>
+											</a>
+										</div>
+										<div class="infobox">
+											<ul class="infodl">
+												<li class="c js_trip">
+													<span class="txt groupname">山水秀美，优良纯净的生态环境&nbsp;&nbsp;</span>
+													<span class="txtgroup">
+														<span class="txt js_title">南京出发</span>
+														<i class="divide">|</i>
+														<span class	txt>6天5晚</span>
+														<i class="divide">|</i>
+														<span class="txt">行程包括庐山、井冈山</span>
+													</span												</li>
+												<li class="c">
+													<span class="txt">往返机票、酒店费用等</span>
+												</li>
+												<li class="c">
+													<span class="txt">2016-3-30</span>
+												</li>
+												<li class="c"><a class="seller js_stop_l" href="#图片" target="_blank">假日国旅网络旅游中心&nbsp;联系方式：4008-901-297</span></li>
+												<a href="#联系方式链接" class="chat js_stop_l" title="咨询商家" target="_blank" style>
+													<i class="ioff"></i>
+													<span class="ont">咨询商家</span>
+												</a>
+											</ul>
+										</div>
+										<div class="pricebox">
+											<div class="rbox"></div>
+											<div class="price">
+												<a  class="js_djCount" href="#图片" target="_blank">
+													<i class="yen">¥2498</i>
+													<span class="va"></span>
+													<span class="pt">起/人</span>
+													<span class="arr">
+														<i class="ao"></i>
+														<i class="ai"></i>
+													</span>
+												</a>
+											</div>											
+										</div>
+									</div>
+								</div>
+								<div class="unit">
+									<div class="unit-hd cf unit-hd-It">
+										<div class="unit-type typex">火车</div>
+										<div class="protit">
+											<a  class="js_djCount" href="#" title="此处添加网址链接"
+											target="_blank">江西庐山4日3晚 观庐山大瀑布 双卧往返 纯玩0购物</a>
+										</div>
+										
+									</div>
+									<div class="unit-bd cf">
+										<div class="imgbox">
+											<a  class="js_djCount" href="#" target="_blank">
+												<img src="http://img1.qunarzz.com/vc/87/0e/bd/a5d9620fa391ab826119d68a14.jpg_210x140x92.jpg" alt>
+											</a>
+										</div>
+										<div class="infobox">
+											<ul class="infodl">
+												<li class="c js_trip">
+													<span class="txt groupname">景色秀丽、人文景观&nbsp;&nbsp;</span>
+													<span class="txtgroup">
+														<span class="txt js_title">南京出发</span>
+														<i class="divide">|</i>
+														<span class	txt>五天四晚</span>
+														<i class="divide">|</i>
+														<span class="txt">行程包括婺源、庐山等</span>
+													</span												</li>
+												<li class="c">
+													<span class="txt">火车票费用、酒店费用</span>
+												</li>
+												<li class="c">
+													<span class="txt">2016-3-30</span>
+												</li>
+												<li class="c"><a class="seller js_stop_l" href="#图片" target="_blank">国旅-蚂蚁旅行&nbsp;联系方式：4008-902-237</span></li>
+												<a href="#联系方式链接" class="chat js_stop_l" title="咨询商家" target="_blank" style>
+													<i class="ioff"></i>
+													<span class="ont">咨询商家</span>
+												</a>
+											</ul>
+										</div>
+										<div class="pricebox">
+											<div class="rbox"></div>
+											<div class="price">
+												<a  class="js_djCount" href="#图片" target="_blank">
+													<i class="yen">¥</i>
+													<span class="va">1560</span>
+													<span class="pt">起/人</span>
+													<span class="arr">
+														<i class="ao"></i>
+														<i class="ai"></i>
+													</span>
+												</a>
+											</div>											
+										</div>
+									</div>
+								</div>
+								<div class="unit">
+									<div class="unit-hd cf unit-hd-It">
+										<div class="unit-type typex">飞机</div>
+										<div class="protit">
+											<a  class="js_djCount" href="#" title="此处添加网址链接"
+											target="_blank">休闲度假首选 南京出发庐山婺源景德镇井冈山七日游 重走革命圣地 体</a>
+										</div>
+										
+									</div>
+									<div class="unit-bd cf">
+										<div class="imgbox">
+											<a  class="js_djCount" href="#" target="_blank">
+												<img src="http://img1.qunarzz.com/vc/3f/5d/6f/5edd1031772ca193e1cac95424.jpg_210x140x92.jpg" alt>
+											</a>
+										</div>
+										<div class="infobox">
+											<ul class="infodl">
+												<li class="c js_trip">
+													<span class="txt groupname">休闲度假、人文景观&nbsp;&nbsp;</span>
+													<span class="txtgroup">
+														<span class="txt js_title">南京出发</span>
+														<i class="divide">|</i>
+														<span class	txt>6天5晚</span>
+														<i class="divide">|</i>
+														<span class="txt">行程包括庐山、景德镇等</span>
+													</span												</li>
+												<li class="c">
+													<span class="txt">飞机票、酒店费用</span>
+												</li>
+												<li class="c">
+													<span class="txt">2016-3-30</span>
+												</li>
+												<li class="c"><a class="seller js_stop_l" href="#图片" target="_blank">国旅-蚂蚁旅行&nbsp;联系方式：4008-902-237</span></li>
+												<a href="#联系方式链接" class="chat js_stop_l" title="咨询商家" target="_blank" style>
+													<i class="ioff"></i>
+													<span class="ont">咨询商家</span>
+												</a>
+											</ul>
+										</div>
+										<div class="pricebox">
+											<div class="rbox"></div>
+											<div class="price">
+												<a  class="js_djCount" href="#图片" target="_blank">
+													<i class="yen">¥</i>
+													<span class="va">2880</span>
+													<span class="pt">起/人</span>
+													<span class="arr">
+														<i class="ao"></i>
+														<i class="ai"></i>
+													</span>
+												</a>
+											</div>											
+										</div>
+									</div>
+								</div>
+								<!-- <div class="unit">
+									<div class="unit-hd cf unit-hd-It">
+										<div class="unit-type typex">【交通方式】</div>
+										<div class="protit">
+											<a  class="js_djCount" href="#" title="此处添加网址链接"
+											target="_blank">此处添加网址链接balabalabala</a>
+										</div>
+										
+									</div>
+									<div class="unit-bd cf">
+										<div class="imgbox">
+											<a  class="js_djCount" href="#" target="_blank">
+												<img src="/static/images/1.jpg" alt>
+											</a>
+										</div>
+										<div class="infobox">
+											<ul class="infodl">
+												<li class="c js_trip">
+													<span class="txt groupname">行程概览&nbsp;&nbsp;</span>
+													<span class="txtgroup">
+														<span class="txt js_title">某地出发</span>
+														<i class="divide">|</i>
+														<span class	txt>时间</span>
+														<i class="divide">|</i>
+														<span class="txt">行程概况</span>
+													</span												</li>
+												<li class="c">
+													<span class="txt">费用详情....</span>
+												</li>
+												<li class="c">
+													<span class="txt">出发日期.....</span>
+												</li>
+												<li class="c"><a class="seller js_stop_l" href="#图片" target="_blank">供应商&nbsp;此处添加联系方式</span></li>
+												<a href="#联系方式链接" class="chat js_stop_l" title="咨询商家" target="_blank" style>
+													<i class="ioff"></i>
+													<span class="ont">咨询商家</span>
+												</a>
+											</ul>
+										</div>
+										<div class="pricebox">
+											<div class="rbox"></div>
+											<div class="price">
+												<a  class="js_djCount" href="#图片" target="_blank">
+													<i class="yen">¥</i>
+													<span class="va">此处添加价钱</span>
+													<span class="pt">起/人</span>
+													<span class="arr">
+														<i class="ao"></i>
+														<i class="ai"></i>
+													</span>
+												</a>
+											</div>											
+										</div>
+									</div>-->
+								</div> 							</div>
+							<div style="display: none;"></div>
+							<div style="display: none;"></div>
+							<div style="display: none;"></div>
+							<div style="display: none;"></div>
+						</div>
+					</div>
+					<div class="pagination" id="pager">
+						<a class="pre">上一页</a>
+						<span class="cur">1</span>
+						<a href="javascript:void(0)">2</a>
+						<a href="javascript:void(0)">3</a>
+						<a href="javascript:void(0)">4</a>
+						<cite>...</cite>
+						<a class="next">下一页</a>
+					</div>
+
+				</div>
+			</div>
+			<div class="qn-footer">
+				<div class="qn-f-container">
+					<p>Copyright © 2016.Company name All rights reserved.</p>
+				</div>
+			</div>
+			<a href="#" id="toTop" style="display: inline;">
+				<span id="toTopHover"></span>
+				To Top
+			</a>
+		</div>
+	</div>
+</body>
+</html>
